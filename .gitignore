@@ -1,5 +1,5 @@
 cache/*
 node_modules
-*.csv
+/*.csv
 config.json
 pixelErrors.dump
