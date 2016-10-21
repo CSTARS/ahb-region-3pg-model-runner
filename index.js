@@ -12,6 +12,7 @@ program
   .option('-m, --months-to-run [number]', 'How long to grow for. Default: 240')
   .option('-d, --use-db [path/to/config.json]', 'DB connection info.')
   .option('-o, --output [filename]', 'File to export to.  Default: export')
+  .option('-e, --dump-errors', 'Dump pixel errors to file')
   .parse(process.argv);
 
 require('./lib/options')(program);
