@@ -10,7 +10,7 @@ program
   .option('-f, --first-coppice [YYYY-MM-DD]', `First Coppice Date.  Default: ${dateCoppiced}`)
   .option('-i, --irrigate', 'Irrigate Poplar.  Default: False')
   .option('-m, --months-to-run [number]', 'How long to grow for. Default: 240')
-  .option('-d, --use-db [path/to/config.json]', 'DB connection info.')
+  .option('-d, --use-db [path/to/config.json]', 'DB connection info (optional).')
   .option('-o, --output [filename]', 'File to export to.  Default: export')
   .option('-e, --dump-errors', 'Dump pixel errors to file')
   .parse(process.argv);
